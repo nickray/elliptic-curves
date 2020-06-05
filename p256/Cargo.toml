@@ -29,6 +29,7 @@ proptest = "0.9"
 [features]
 default = ["arithmetic", "std"]
 arithmetic = ["subtle"]
+expose-arithmetic = ["arithmetic"]
 test-vectors = []
 std = ["elliptic-curve/std"]
 
